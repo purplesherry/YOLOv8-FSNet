@@ -1,0 +1,102 @@
+Changelog
+=========
+
+v0.2.0 (2017-01-19)
+-------------------
+
+Features
+~~~~~~~~
+
+- Add discovery (closes #3). [Stavros Korokithakis]
+
+v0.1.0 (2017-01-16)
+-------------------
+
+Fixes
+~~~~~
+
+- Abort with an error if the bulb closes the connection (fixes #5).
+  [Stavros Korokithakis]
+
+- Flow API improvements (#3) [Teemu R]
+
+  * Flow API improvements
+
+  1. Cast brightness always to int.
+  2. Raise an exception when supplied with more than maximum amount of transitions.
+  3. Supply repr dunders.
+
+  * Flow: use warning instead of exception for invalid values. Add check for brightness' validity.
+
+  * Change warning to display for over 9 messages.
+
+  * Silently clamp brightness to 100, as elsewhere.
+
+v0.0.13 (2017-01-11)
+--------------------
+
+Changes
+~~~~~~~
+
+- Add changelog. [Stavros Korokithakis]
+
+Fixes
+~~~~~
+
+- Make `ensure_on` more accurate by always fetching the properties
+  before a method call. [Stavros Korokithakis]
+
+v0.0.12 (2016-11-16)
+--------------------
+
+Fixes
+~~~~~
+
+- Remove debugging command that was erroneously left in. [Stavros
+  Korokithakis]
+
+v0.0.11 (2016-11-16)
+--------------------
+
+Features
+~~~~~~~~
+
+- Add music mode. [Stavros Korokithakis]
+
+v0.0.10 (2016-11-15)
+--------------------
+
+Features
+~~~~~~~~
+
+- Add set_adjust. [Stavros Korokithakis]
+
+- Add value parameter to set_hsv. [Stavros Korokithakis]
+
+Fixes
+~~~~~
+
+- Don't require flake8 for tests any more. [Stavros Korokithakis]
+
+- Fix tests on Python 3. [Stavros Korokithakis]
+
+- Fix per-call effects. [Stavros Korokithakis]
+
+v0.0.9 (2016-11-14)
+-------------------
+
+Fixes
+~~~~~
+
+- Ignore errors on init files. [Stavros Korokithakis]
+
+v0.0.8 (2016-11-14)
+-------------------
+
+Fixes
+~~~~~
+
+- Hopefully actually fix version string problem during setup. [Stavros
+  Korokithakis]
+
+

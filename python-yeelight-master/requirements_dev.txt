@@ -1,0 +1,12 @@
+flake8
+flake8-docstrings
+pep8-naming
+
+Sphinx
+sphinx-rtd-theme
+
+pytest
+coverage
+pytest-cov
+
+pre-commit
